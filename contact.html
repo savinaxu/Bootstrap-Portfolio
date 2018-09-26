@@ -2,57 +2,69 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Savina Xu's portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+
+    <!-- Modernize -->
+    <script src="js/modernizr.js"></script>
 </head>
 
 <body>
     <!-- Navigation Start -->
-    <div id="about" class="header-container">
-        <nav class="clearfix">
-            <div class="name">Savina</div>
-            <div class="menu">
+    <nav>
+        <div class="row">
+            <div class="container">
+                <div class="name">Savina</div>
+                <div class="mobile-bar"><span></span></div>
                 <ul class="nav-menu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="index.html#about">About</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a class="active-page" href="contact.html">Contact</a></li>
+                    <li><a class ="active" href="contact.html">Contact</a></li>
                 </ul>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
     <!-- Navigation End -->
 
-    <!-- Contact Section Start -->
-
-    <!-- just because the about section alreay created lay out which is similer to the rest of the page,
-    so I decided to use the same class even though the content is totally different. -->
-
-    <section class="about-section">
-        <div id="contact" class="about-container">
-            <h1 class="about-me">Contact</h1>
-            <form>
-                <label for="name">Name</label>
-                <input type="text" placeholder="Savina Xu">
-
-                <label for="name">Email</label>
-                <input type="text" placeholder="supajiajia@gmail.com">
-
-                <label for="message">Message</label>
-                <textarea name="message" rows="10" placeholder="Leave your message here..."></textarea>
-
-                <button>Submit</button>
-            </form>
+    <!-- Contact Start -->
+    <section class="contact-section spad" id="contact">
+        <div class="section-title">
+            <h2>CONTACT ME</h2>
         </div>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="exampleInputName1" placeholder="Enter your name">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" class="form-control" rows="10" placeholder="Leave your message here..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
     </section>
-
-    <!-- Contact Section End -->
-
+    <!-- Contact End -->
 
     <!-- Footer Start -->
     <footer>
@@ -71,6 +83,13 @@
     </footer>
     <!-- Footer End -->
 
+
+    <!-- Jquery and other scripts -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

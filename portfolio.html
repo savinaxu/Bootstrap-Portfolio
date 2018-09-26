@@ -2,120 +2,114 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Savina Xu's portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+
+    <!-- Modernize -->
+    <script src="js/modernizr.js"></script>
 </head>
 
 <body>
     <!-- Navigation Start -->
-    <div id="about" class="header-container">
-        <nav class="clearfix">
-            <div class="name">Savina</div>
-            <div class="menu">
+    <nav>
+        <div class="row">
+            <div class="container">
+                <div class="name">Savina</div>
+                <div class="mobile-bar"><span></span></div>
                 <ul class="nav-menu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="index.html#about">About</a></li>
-                    <li><a class="active-page" href="portfolio.html">Portfolio</a></li>
+                    <li><a class ="active" href="portfolio.html">Portfolio</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
     <!-- Navigation End -->
 
-    <!-- Portfolio Section Start -->
-
-    <!-- just because the about section alreay created lay out which is similer to the rest of the page,
-    so I decided to use the same class even though the content is totally different. -->
-
-    <section class="about-section">
-        <div id="portfolio" class="about-container">
-            <h1 class="about-me">PORTFOLIO</h1>
-            <div class="about-content clearfix">
-                <div class="grid">
-                    <div class="view hover">
-                        <img src="assets/images/portfolio1.png">
-                        <div class="mask">
-                            <h2>VB Restaurent</h2>
-                            <p>Descriptions</p>
-                            <a href="#" class="info">Read More</a>
+    <!-- Portfolios Section Start -->
+    <section class="portfolios-section spad" id="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>PORTFOLIO</h2>
+                <p>From UX/UI Designer to Front-end Developer. Check out my latest portfolio projects.</p>
+            </div>
+            <!-- <ul class="portfolio-filter">
+				<li class="filter" data-filter="*">ALL</li>
+				<li class="filter" data-filter=".ill">ILLUSTRATIONS</li>
+				<li class="filter" data-filter=".brand">BRANDING</li>
+				<li class="filter" data-filter=".fs">FASHION</li>
+			</ul> -->
+            <!-- Portfolio items -->
+            <div class="row portfolio_container">
+                <div class="grid-item col-md-4 col-sm-4 col-xs-12">
+                    <div class="work-item">
+                        <img src="assets/images/portfolios2.png" alt="portfolio image">
+                        <div class="work-inner">
+                            <a class="work-zoom" href="#"><i class="fa fa-search"></i></a>
                         </div>
                     </div>
-                    <h4><a href="#">VB Restaurent</a></h4>
-                    <p>Branding</p>
-                </div>
-                <div class="grid">
-                    <div class="view hover">
-                        <img src="assets/images/portfolio2.jpg">
-                        <div class="mask">
-                            <h2>Name1</h2>
-                            <p>Descriptions</p>
-                            <a href="#" class="info">Read More</a>
-                        </div>
-                    </div>
-                    <h4><a href="#">Name1</a></h4>
-                    <p>Type</p>
-                </div>
-                <div class="grid">
-                    <div class="view hover">
-                        <img src="assets/images/portfolio3.jpg">
-                        <div class="mask">
-                            <h2>Name1</h2>
-                            <p>Descriptions</p>
-                            <a href="#" class="info">Read More</a>
-                        </div>
-                    </div>
-                    <h4><a href="#">Name1</a></h4>
-                    <p>Type</p>
-                </div>
-                <div class="grid">
-                    <div class="view hover">
-                        <img src="assets/images/portfolio4.jpg">
-                        <div class="mask">
-                            <h2>Name1</h2>
-                            <p>Descriptions</p>
-                            <a href="#" class="info">Read More</a>
-                        </div>
-                    </div>
-                    <h4><a href="#">Name1</a></h4>
-                    <p>Type</p>
-                </div>
-                <div class="grid">
-                    <div class="view hover">
-                        <img src="assets/images/portfolio5.jpg">
-                        <div class="mask">
-                            <h2>Name1</h2>
-                            <p>Descriptions</p>
-                            <a href="#" class="info">Read More</a>
-                        </div>
-                    </div>
-                    <h4><a href="#">Name1</a></h4>
-                    <p>Type</p>
-                </div>
-                <div class="grid">
-                    <div class="view hover">
-                        <img src="assets/images/portfolio6.jpg">
-                        <div class="mask">
-                            <h2>Name1</h2>
-                            <p>Descriptions</p>
-                            <a href="#" class="info">Read More</a>
-                        </div>
-                    </div>
-                    <h4><a href="#">Name1</a></h4>
-                    <p>Type</p>
                 </div>
 
-                <div class="clear"></div>
+                <div class="grid-item col-md-4 col-sm-4 col-xs-12">
+                    <div class="work-item">
+                        <img src="assets/images/portfolios1.jpg" alt="portfolio image">
+                        <div class="work-inner">
+                            <a class="work-zoom" href="#"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-item col-md-4 col-sm-4 col-xs-12">
+                    <div class="work-item">
+                        <img src="assets/images/portfolios3.png" alt="potrfolio image">
+                        <div class="work-inner">
+                            <a class="work-zoom" href="#"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-item col-md-4 col-sm-4 col-xs-12">
+                    <div class="work-item">
+                        <img src="assets/images/portfolios6.png" alt="">
+                        <div class="work-inner">
+                            <a class="work-zoom" href="#"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-item col-md-4 col-sm-4 col-xs-12">
+                    <div class="work-item">
+                        <img src="assets/images/portfolios5.png" alt="portfolio image">
+                        <div class="work-inner">
+                            <a class="work-zoom" href="#"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-item col-md-4 col-sm-4 col-xs-12">
+                    <div class="work-item">
+                        <img src="assets/images/portfolios4.png" alt="">
+                        <div class="work-inner">
+                            <a class="work-zoom" href="#"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <!-- Portfolio Section End -->
-
+    <!-- Portfolios Section End -->
 
     <!-- Footer Start -->
     <footer>
@@ -134,6 +128,13 @@
     </footer>
     <!-- Footer End -->
 
+
+    <!-- Jquery and other scripts -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

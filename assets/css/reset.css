@@ -24,7 +24,6 @@ time, mark, audio, video {
     outline:0;
     font-size:100%;
     background:transparent;
-    box-sizing: border-box;
 }
 
 article,aside,details,figcaption,figure,
