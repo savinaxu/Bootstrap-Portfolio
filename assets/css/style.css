@@ -62,9 +62,9 @@ ol {
   margin-top: 30px;
 }
 
-[class*="-section"] {
+/* [class*="-section"] {
   overflow: hidden;
-}
+} */
 
 .no-pad {
   padding-left: 0;
