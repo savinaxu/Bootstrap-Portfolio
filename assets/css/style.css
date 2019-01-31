@@ -509,6 +509,8 @@ footer p {
 
 .portfolio_container {
   margin-bottom: -30px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* .portfolio-filter {
@@ -530,7 +532,7 @@ footer p {
 } */
 
 .grid-item {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .work-item {
